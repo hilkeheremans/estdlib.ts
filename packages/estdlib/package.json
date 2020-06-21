@@ -1,5 +1,5 @@
 {
-  "name": "@marcj/estdlib",
+  "name": "@thinman/marcj-estdlib",
   "version": "0.1.18",
   "description": "engineering stdlib for typescript",
   "main": "dist/index.js",

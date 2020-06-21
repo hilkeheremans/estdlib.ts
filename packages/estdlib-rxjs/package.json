@@ -1,5 +1,5 @@
 {
-  "name": "@marcj/estdlib-rxjs",
+  "name": "@thinman/marcj-estdlib-rxjs",
   "version": "0.1.18",
   "description": "engineering stdlib for typescript",
   "main": "dist/index.js",
@@ -16,11 +16,11 @@
     "tsc-watch": "rm -rf dist && tsc --watch"
   },
   "peerDependencies": {
-    "@marcj/estdlib": "^0.1.11",
+    "@thinman/marcj-estdlib": "^0.1.11",
     "rxjs": "^6.3.3"
   },
   "devDependencies": {
-    "@marcj/estdlib": "^0.1.18",
+    "@thinman/marcj-estdlib": "^0.1.18",
     "rxjs": "^6.3.3"
   },
   "jest": {

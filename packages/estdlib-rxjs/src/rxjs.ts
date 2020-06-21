@@ -1,7 +1,7 @@
 import {Observable, Subscription, Subscriber, TeardownLogic, BehaviorSubject} from "rxjs";
-import {createStack, mergePromiseStack, mergeStack} from "@marcj/estdlib";
+import {createStack, mergePromiseStack, mergeStack} from "@thinman/marcj-estdlib";
 import {skip, first} from 'rxjs/operators';
-import {arrayRemoveItem} from "@marcj/estdlib";
+import {arrayRemoveItem} from "@thinman/marcj-estdlib";
 
 export class AsyncSubscription {
     protected unsubscribed = false;
